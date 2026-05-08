@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+ } 
+ .anton-regular {
+  font-family: "nose", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h1
+    {
+      color: #007818;
+    } 
+    #fotologo
+    {
+        width: 150px;
+        height: 150px;
+    } 
+    #fotoanimada
+    {
+        width: 300px;
+    } 
+    .bordes
+    {
+        border: 3px solid #69d969;
+    } 
+    #cajaLogo
+     {
+        width : 100%;
+        border: 2px solid black;
+        background-color: green;
+    }  
+      #textoLogo
+    {
+        text-align: center;
+        background-color: rgb(110, 233, 9);
+        color: rgb(133, 44, 44);
+        font-size: 50px ;
