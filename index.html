@@ -2,10 +2,9 @@
 <html lang="en">
 <!-- Este es el codigo organizado en el mismo documento-->
 <style>
-   h1
-    {
-      color: rgb(34, 139, 34);
-    }  
+    h1 {
+        color: rgb(34, 139, 34);
+    }
 </style>
 
 <head>
@@ -21,195 +20,245 @@
 
 <body>
 
-      <section>
+    <section>
         <div id="cajaLogo">
             <center>
-           <img src="ganado.webp"id="fotologo" class="bordes">
-           </center>
+                <img src="ganado.webp" id="fotologo" class="bordes">
+            </center>
         </div>
 
-        <div id="textoLogo" class="anton-regular"> 
+        <div id="textoLogo" class="anton-regular">
             Ganadería Luxury
         </div>
-      </section>
+    </section>
+
+    <nav id="Menu">
+        <ul>
+            <li><a href="ventas.html">Venta - Ganado </a> </li>
+            <li><a href="fincas.html">fincas </a> </li>
+            <li><a href="razas.html">razas </a> </li>
+            <li><a href="veterinaria.html">veterinaria </a> </li>
+        </ul>
+
+    </nav>
+    <section>
+
+        <main>
+            <section id="main">
+                <div id="servicios">
+                    <div id="image1-servicios">
+                        <img src="caricatura-vaca-cuernos-campana-alrededor-su-cuello_730620-714310.avif"
+                            class="image-serv">
+                    </div>
+                    <div id="image2-servicios">
+                        <img src="cute-cow-cartoon-illustration-vector.jpg" class="image-serv">
+                    </div>
+                    <div id="image3-servicios">
+                        <img src="oipp.webp" class="image-serv">
+                    </div>
+
+                </div>
+                <div id="contenidoPpal1">
+                    <div id="video">
+                        <video src="videoplayback.mp4" id="vid"></video>
+                    </div>
+                    <div id="textoPpal">
+
+                        <h1 style="color:white;">Bienvenidos a Ganadería Luxury</h1>
+                        <h2>Compra el mejor ganado con nosotros</h2>
+
+                        <p>La ganadería es una de las actividades más importantes para el ser humano, ya que contribuye
+                            al desarrollo económico, social y alimenticio de muchos países. Desde tiempos antiguos, la
+                            cría de animales ha permitido obtener alimentos esenciales como carne, leche y huevos,
+                            productos que forman parte de la dieta diaria de millones de personas,Además de proporcionar
+                            alimentos, la ganadería genera empleo para muchas familias, especialmente en las zonas
+                            rurales. </p>
+                            <br>
+                             <audio src="audiovaca.mp3" controls></audio>
+                            
+                            </div> 
+                         </div>
+                            </div>
+                        <div id="Registro">
+                            <div id="tabla">
+                        <table border="4">
+                            <caption>Mejor Ganado</caption>
+                            <thead>
+                                <tr>
+                                    <th>Ciudad</th>
+                                    <th>Raza</th>
+                                    <th>Peso</th>
+                                    <th>Imagen</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="2">Medellin</td>
+                                    <td>Brahman</td>
+                                    <td>850kg</td>
+                                    <td><img src="brama.webp" width="120" height="90"></td>
+                                </tr>
 
-  <nav id="Menu">
-    <ul> 
-        <li><a href ="ventas.html">Venta - Ganado </a> </li>
-        <li><a href ="fincas.html">fincas </a> </li>
-        <li><a href ="razas.html">razas </a> </li>
-        <li><a href ="veterinaria.html">veterinaria </a> </li>
-    </ul>
+                                <tr>
+                                    <td>Angus</td>
+                                    <td>900kg</td>
+                                    <td><img src="angus.webp" width="120" height="90"></td>
+                                </tr>
 
-  </nav> 
+                                <tr>
+                                    <td rowspan="2">Monteria</td>
+                                    <td>Holstein</td>
+                                    <td>780kg</td>
+                                    <td><img src="hosteil.webp" width="120" height="90"></td>
+                                </tr>
 
-  <!--El codigo CSS en el mismo documento no organizado-->  
+                                <tr>
+                                    <td>Normando</td>
+                                    <td>820kg</td>
+                                    <td><img src="norma.jpg" width="120" height="90"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                       </div>
+                        <div id="Formulario">
+                            <form action="" method="">
+
+                                <h2>Mejor Ganado</h2>
+
+                                <label for="Raza">Raza</label>
+                                <input type="text" name="Raza_Ganado" id="Raza_Ganado">
+
+                                <br>
+
+                                <label for="Mejor_Ganado">Mejor Ganado
+                                </label>
 
-  <h1 style="color:white;">Bienvenidos a Ganadería Luxury</h1>
+                                <label>Brahman</label><input type="radio" name="Ganado" id="">
 
-  <h2>Compra el mejor ganado con nosotros</h2>
+                                <label>Angus</label><input type="radio" name="Ganado" id="">
 
-  <p>Nos encargamos de ofrecer el mejor ganado bovino del país</p>
+                                <label>Holstein</label><input type="radio" name="Ganado" id="">
 
-  <ul>
-    <li>Ganado Brahman</li>
-    <li>Ganado Holstein</li>
-    <li>Ganado Angus</li>
-  </ul>
+                                <label>Normando</label><input type="radio" name="Ganado" id="">
 
-  <a href="https://es.wikipedia.org/wiki/Ganado_bovino">
+                                <br>
 
- <img src="logo.webp" class="bordes">
+                                <label for="Peso_Final">Peso Final</label>
 
- <img src="finca.webp"id="fotologo" class="bordes"> 
+                                850kg: <input type="checkbox" id="">
 
- <img src="gifvacas.gif"id="fotoanimada"class="redondeada"> 
+                                900kg: <input type="checkbox" id="">
 
- </a>
+                                780kg: <input type="checkbox" id="">
 
- <iframe width="560" height="315" src="https://www.youtube.com/embed/cbPAjzY-RGc?si=EhER885SJagUl982" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                820kg: <input type="checkbox" id="">
 
+                                <br>
 
- <p>
-    La ganadería es una de las actividades económicas más importantes del mundo y permite la producción de carne y leche.
- </p>
+                                <label for="Mejor_Finca">Mejor Finca</label>
+                                <input type="text" name="Mejor_Finca">
 
- <audio src="audiovaca.mp3"controls></audio>
+                                <br>
 
-<p>
-    Existen diferentes razas de ganado reconocidas por su calidad y producción en distintos países.
-</p>
+                                <label for="Mejor_Veterinario">Mejor Veterinario</label>
+                                <input type="text" name="Mejor_Veterinario">
 
-<table border="4">
+                                <br>
 
-    <caption>Mejor Ganado</caption>
+                                <label for="Correo">Correo Electronico</label>
+                                <input type="email" name="Correo_Usuario" id="">
 
-    <thead>
-        <tr>
-            <th>Ciudad</th>
-            <th>Raza</th>
-            <th>Peso</th>
-            <th>Imagen</th>
-        </tr>
-    </thead>
+                                <br>
 
-<tbody>
+                                <label for="Ganado_Vendido">Ganado Vendido</label>
 
-    <tr>
-        <td rowspan="2">Medellin</td>
-        <td>Brahman</td>
-        <td>850kg</td>
-        <td><img src="brama.webp" width="120" height="90"></td>
-    </tr>
+                                <select name="GanadoVendido" id="">
 
-    <tr>
-        <td>Angus</td>
-        <td>900kg</td>
-        <td><img src="angus.webp" width="120" height="90"></td>
-    </tr>
+                                    <option>--SELECT--</option>
 
-     <tr>
-        <td rowspan="2">Monteria</td>
-        <td>Holstein</td>
-        <td>780kg</td>
-        <td><img src="hosteil.webp" width="120" height="90"></td>
-    </tr>
+                                    <option value="1">10</option>
 
-    <tr>
-        <td>Normando</td>
-        <td>820kg</td>
-        <td><img src="norma.jpg" width="120" height="90"></td>
-    </tr>
+                                    <option value="2">25</option>
 
-</tbody>
-</table>
+                                    <option value="3">40</option>
 
-<section>
+                                    <option value="4">60</option>
 
-   <form action="" method="">
+                                </select>
 
-    <h2>Mejor Ganado</h2>
+                                <br>
 
-    <label for="Raza">Raza</label>
-    <input type="text" name="Raza_Ganado" id="Raza_Ganado">
+                                <label for="">Foto:</label>
+                                <input type="file" name="fotoGanado" id="">
 
-     <br>
+                                <br>
 
-     <label for="Mejor_Ganado">Mejor Ganado
-     </label>
+                                <label for="contrasena">Contraseña</label>
 
-     <label>Brahman</label><input type="radio" name="Ganado" id="">
+                                <input type="password" name="contrasena" id="" required>
 
-     <label>Angus</label><input type="radio" name="Ganado" id="" > 
+                                <br>
 
-     <label>Holstein</label><input type="radio" name="Ganado" id="">
+                                <input type="submit" value="Guardar Informacion">
 
-     <label>Normando</label><input type="radio" name="Ganado" id="">
+                            </form>
+                        
+                            </div>
+                        </div>
+                    </main>
+                </section>
+                <footer>
+                    </div>
+            <div id="contenifooter">
+                <div id="cont1">
+                    <h2>compra el mejor ganado con nosotros</h2>
+                    <br>
+                    <p>el mejor ganado a tu disposicion</p>
+                    </div>
+                                 <div id="cont2">
+                                      <h2>Redes sociales</h2>
+                                     <br>
+                                     <p> Intagram</p>
+                                      <br>
+                                      <p>Facebook</p>
+                                      <br>
+                                      <p>Whatsapp</p>
+            </div>
+        </div>
+    </footer>
 
-     <br>
 
-     <label for="Peso_Final">Peso Final</label>
+                        <a href="https://es.wikipedia.org/wiki/Ganado_bovino">
 
-     850kg: <input type="checkbox" id="">
+                            <img src="logo.webp" class="bordes">
 
-     900kg: <input type="checkbox" id="">
+                            <img src="finca.webp" id="fotologo" class="bordes">
 
-     780kg: <input type="checkbox" id="">
+                            <img src="gifvacas.gif" id="fotoanimada" class="redondeada">
 
-     820kg: <input type="checkbox" id="">
+                        </a>
 
-     <br>
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/cbPAjzY-RGc?si=EhER885SJagUl982"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-     <label for="Mejor_Finca">Mejor Finca</label>
-     <input type="text" name="Mejor_Finca">
-     
-     <br>
 
-     <label for="Mejor_Veterinario">Mejor Veterinario</label>
-     <input type="text" name="Mejor_Veterinario">
+                        <p>
+                            La ganadería es una de las actividades económicas más importantes del mundo y permite la
+                            producción de carne y leche.
+                        </p>
 
-     <br>
+                        
+                        <p>
+                            Existen diferentes razas de ganado reconocidas por su calidad y producción en distintos
+                            países.
+                        </p>
+                        <section>
 
-     <label for="Correo">Correo Electronico</label>
-     <input type="email" name="Correo_Usuario" id="">
-
-     <br>
-
-     <label for="Ganado_Vendido">Ganado Vendido</label>
-
-     <select name="GanadoVendido" id="">
-
-     <option>--SELECT--</option>
-
-     <option value="1">10</option>
-
-     <option value="2">25</option>
-
-     <option value="3">40</option>
-
-     <option value="4">60</option>
-
-     </select>
-
-      <br>
-
-      <label for="">Foto:</label>
-      <input type="file" name="fotoGanado" id="">
-
-      <br>
-
-      <label for="contrasena">Contraseña</label>  
-
-      <input type="password" name="contrasena" id="" required>  
-
-      <br>
-
-      <input type="submit" value="Guardar Informacion"> 
-
-     </form>
-
-</section>
-
+                        </section>
 </body>
 
 </html>
